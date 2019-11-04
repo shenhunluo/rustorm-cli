@@ -1,0 +1,14 @@
+[package]
+name = "rustorm-cli"
+version = "0.1.0"
+authors = ["shenhunluo <a1045572818@hotmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "a client for rustorm"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rustorm = {version="*",features=["with-mysql"]}
+dotenv = "*"
+clap = "*"
